@@ -5,11 +5,12 @@ body {
 }
 nav {
     width: 80vw;
-    height: 10vh;
-    background-color: blue;
+    height: 5vh;
+    background-color: aliceblue;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 nav a:hover {
     text-decoration: underline;

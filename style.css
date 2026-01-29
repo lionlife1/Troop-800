@@ -53,10 +53,11 @@ a:hover {
 .campouts{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    height: 500px;
-    width: 500px;
+    height: 250px;
+    width: 250px;
     background-color: aliceblue;
     border-radius: 5%;
 }

@@ -12,8 +12,15 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     border-radius: 5%;
+    
+}
+nav a {
+    color: aquamarine;
 }
 nav a:hover {
     text-decoration: underline;
-    color: blue;
+}
+#current_page {
+    color: aqua;
+    font-weight: bolder;
 }

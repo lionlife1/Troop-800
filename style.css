@@ -15,12 +15,11 @@ nav {
     border-radius: 5%;
 }
 nav a {
-    color: aquamarine;
+    color: blue;
 }
-nav a:hover {
+a:hover {
     text-decoration: underline;
 }
 #current_page {
-    color: aqua;
     font-weight: bolder;
 }

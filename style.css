@@ -5,7 +5,7 @@ body {
     padding-top: 5vh;
 }
 nav {
-    width: 80vw;
+    width: 90vw;
     height: 5vh;
     min-height: 2.5em;
     background-color: aliceblue;
@@ -31,7 +31,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     justify-content: space-evenly;
 }
 
@@ -67,6 +67,6 @@ a:hover {
 
 /* may need to fix later -- heights and stuff */
 .campouts img {
-    max-height: 20vh; 
+    max-height: 60%; 
     max-width: 250px;
 }

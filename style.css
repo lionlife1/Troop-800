@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 5vh;
 }
 nav {
     width: 80vw;
@@ -12,7 +13,9 @@ nav {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    border-radius: 5%;
+    border-radius: 2.5vh;
+    position: fixed;
+    top: 8px;
 }
 nav a {
     color: blue;
@@ -59,7 +62,7 @@ a:hover {
     height: 250px;
     width: 250px;
     background-color: aliceblue;
-    border-radius: 5%;
+    border-radius: 25px;
 }
 
 /* may need to fix later -- heights and stuff */

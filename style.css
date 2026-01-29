@@ -16,13 +16,25 @@ nav {
 }
 nav a {
     color: blue;
+    text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
+
+
+
+#campouts_container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
 #current_page {
     font-weight: bolder;
 }
+
 .campouts h4 {
     font-size: 2em;
     font-weight: bolder;
@@ -34,6 +46,10 @@ a:hover {
     margin-bottom: 2%;
 }
 
+.campouts p {
+    display: none;
+}
+
 .campouts{
     display: flex;
     flex-direction: column;
@@ -41,8 +57,12 @@ a:hover {
     justify-content: flex-start;
     height: 500px;
     width: 500px;
+    background-color: aliceblue;
+    border-radius: 5%;
 }
 
+/* may need to fix later -- heights and stuff */
 .campouts img {
-    max-height: 30%;
+    max-height: 20vh; 
+    max-width: 250px;
 }

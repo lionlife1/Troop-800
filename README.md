@@ -1,2 +1,2 @@
 # Troop-800
-A sample Troop800 Website that I coded as a demonstration.
+The website for my troop that I am currently coding (as webmaster).
